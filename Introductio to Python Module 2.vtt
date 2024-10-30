@@ -1,0 +1,634 @@
+WEBVTT
+
+1
+00:00:03.140 --> 00:00:28.200
+Niketan Doddamani: Hello! This is Nike and Durmani, a grad master students in computer science at University of Illinois, Chicago, as well as a digital scholarship hub staff, I would be conducting python workshops. And today we are heading to python workshop module one on behalf of digital scholarship. Hub, so yeah, let's begin the workshop.
+
+2
+00:00:41.920 --> 00:01:05.399
+Niketan Doddamani: So yeah, as I said, we'll be studying the introduction to python one python module one today. So in this workshop. Our learning goals are at the end of this module we'll be. We'll have a clear idea on what Python is, and how we can carry out the installations of Jupyter notebook in
+
+3
+00:01:05.749 --> 00:01:29.499
+Niketan Doddamani: windows as well as Mac. That is 2 different operating systems. Also, we'll be exploring the features of the Jupyter notebook like? What is cell? What is what is a code cell? What is a markdown cell, how we can open the file, how we can upload the file, or how we can rename the file. Such features will be we will be touching upon today
+
+4
+00:01:29.500 --> 00:01:51.170
+Niketan Doddamani: as well as as well as what? What is print statement like print in python? If we want to print an object, how do we do that like, what's the basic syntax of the print statement. And what happens if we vary the parameters of the print statement, we'll be having a detailed look over that. So let's begin.
+
+5
+00:01:53.870 --> 00:02:10.360
+Niketan Doddamani: So yeah. I in the introduction, I'd like to say I'd like to tell you more about what python is. Python is a high level programming language, meaning it is designed to be easy to understand and close to human language.
+
+6
+00:02:10.530 --> 00:02:36.870
+Niketan Doddamani: It's mainly known for its versatility that is, being highly adaptable and used in wide range of applications. It's commonly applied in data mining web development with the frameworks like Django and flask data, science machine learning automation. You using the libraries, such as selenium selenium, is used for testing, and much more
+
+7
+00:02:36.870 --> 00:03:01.819
+Niketan Doddamani: so. Python is also known for its simplicity and readability, meaning. It's designed to be clean and straightforward, making it easy for beginners and efficient for experienced developers. It's also extensively used by big tech companies, such as Google, Netflix, NASA, for their various projects. Also, python supports multiple programming
+
+8
+00:03:01.820 --> 00:03:24.970
+Niketan Doddamani: paradigms, including object oriented procedural and functional programming. Now in here procedural means. Let's say, we have 10 steps in order to compute the in order to compute the sum of 2 numbers. So what what procedural? Make sure, says that
+
+9
+00:03:24.970 --> 00:03:38.513
+Niketan Doddamani: each step is each step is performed one after the other. That is sequentially. So this is this is how the python functions. And yeah, let's get into another other topics. That is
+
+10
+00:03:39.010 --> 00:03:50.870
+Niketan Doddamani: installation process, basically. So inst first, st we'll begin with the installation process of windows installation process of Jupiter in windows.
+
+11
+00:03:51.970 --> 00:03:53.660
+Niketan Doddamani: So yeah.
+
+12
+00:03:55.890 --> 00:03:59.099
+Niketan Doddamani: wait for a minute I'll be sharing the slides.
+
+13
+00:03:59.140 --> 00:04:00.220
+Niketan Doddamani: Yes.
+
+14
+00:04:00.560 --> 00:04:01.620
+Niketan Doddamani: So
+
+15
+00:04:03.760 --> 00:04:29.079
+Niketan Doddamani: yeah. So this is the the installation of Jupyter notebook for windows. We'll be. We'll be following, step by step process of this, in order to have the detailed steps. Detailed steps regarding the installation. So yeah, so open one of your favorite browser in the windows machine and then type anaconda.org in the
+
+16
+00:04:29.080 --> 00:04:38.569
+Niketan Doddamani: browser, and once you type anaconda.org on the right hand side you will see a download anaconda button. Please click on that button.
+
+17
+00:04:38.900 --> 00:05:00.939
+Niketan Doddamani: and once you click on that button you'll be redirected to a new page wherein in New page you will have, you'll you'll see a form data which asks you to register in order to provide an email, address and other stuff, and at the bottom, if you see there is another button called skip registration, please keep click on that.
+
+18
+00:05:01.690 --> 00:05:18.939
+Niketan Doddamani: and once you click on that you'll again redirected to a new page wherein there is anaconda installers, followed by windows machine button and in that there is a downloading download text written over there. So please click on that.
+
+19
+00:05:20.150 --> 00:05:34.309
+Niketan Doddamani: and once you click on that, wait for some seconds, and once the download has finished on the right on the on the top right corner of your browser you will see the download has finished dialog box appearing.
+
+20
+00:05:35.850 --> 00:05:52.869
+Niketan Doddamani: and once you click on that dialog box. It will it will it will take to another dialog box, wherein you'll see a welcome to anaconda 3, followed by there are 2 buttons on that. That is next as well as cancel. So please click on next.
+
+21
+00:05:53.560 --> 00:05:59.849
+Niketan Doddamani: and once you click on next there you'll you'll get the license agreement. Please click on, I agree.
+
+22
+00:06:01.100 --> 00:06:18.249
+Niketan Doddamani: and once you click on, I agree, you'll have 2 options that is selecting just for me as well as all users. If you have an admin privileges, go for all users, or if you don't have an admin privileges, use the option, just me.
+
+23
+00:06:18.900 --> 00:06:22.440
+Niketan Doddamani: and click on next next button.
+
+24
+00:06:23.110 --> 00:06:39.740
+Niketan Doddamani: and once you click on next button, please verify where the anaconda has been installed like it should start with your path as a C, followed by program data as well as anaconda. It could be it could vary person to person. It doesn't matter. So click on next.
+
+25
+00:06:40.850 --> 00:06:58.070
+Niketan Doddamani: And once you click on next you'll be again prompted with a new dialog box. And please ensure that you'll tick 2 top 2 of the boxes that is, in order to create a shortcut as well as register anaconda, 3. As a system, python, 3.1 2,
+
+26
+00:06:58.430 --> 00:07:01.269
+Niketan Doddamani: and then followed by click on the install button.
+
+27
+00:07:01.490 --> 00:07:19.810
+Niketan Doddamani: and once you click on the install button you'll you'll be you'll be asked to wait for certain certain amount of time. And then the install. When, when once the installation gets completed, you'll see the installation completed information. And now, after that click on next button.
+
+28
+00:07:21.770 --> 00:07:42.160
+Niketan Doddamani: and once you click on next button. Yeah, we make sure that the installation of Jupyter notebook in the windows machine is being completed successfully. Now. On your desktop you can see a Anacona navigator shortcut. So please do open the anaconda navigator shortcut.
+
+29
+00:07:43.210 --> 00:07:54.200
+Niketan Doddamani: and once you open that there is a Jupiter there's a Jupyter notebook inside the inside. The Anacona navigator, please. Click on the launch button of that.
+
+30
+00:07:56.880 --> 00:08:06.460
+Niketan Doddamani: Yeah. And here you go. You you are now at the Jupiter environment. Looking like this.
+
+31
+00:08:06.630 --> 00:08:20.229
+Niketan Doddamani: Yeah, looking like this, not like this. I mean, you'll be having the home, followed by many of the directories over there. So here we completed here we here we completed the
+
+32
+00:08:22.854 --> 00:08:28.400
+Niketan Doddamani: installation of windows. Now we'll go for installation in the Mac.
+
+33
+00:08:29.860 --> 00:08:38.230
+Niketan Doddamani: Yes. So yeah. In the installation of Mac again. I'll go one slide by slide.
+
+34
+00:08:38.280 --> 00:08:40.100
+Niketan Doddamani: So that is.
+
+35
+00:08:40.620 --> 00:08:54.120
+Niketan Doddamani: open your favorite browser again and type on anaconda.org. And once you type that again on the top, right button on the top right corner you have the download anaconda button. Please do click off. Click on that button.
+
+36
+00:08:54.270 --> 00:09:10.739
+Niketan Doddamani: and once you click on that button you'll re you'll be redirected to another page wherein there are. There will be a user information details requested from you as well as you have the skip registration button over there, so please click on the skip registration button.
+
+37
+00:09:11.210 --> 00:09:40.578
+Niketan Doddamani: and once you click on the skip registration button. You'll be redirected to a new page in this new page. You'll have 3 you will have 2 information on the button that is download for Mac, ensuring which which version of Mac is yours. So let's see how we can do that. In the top left corner, you see an apple icon. So click on that apple icon. Once you click on that apple icon. It asks it displays
+
+38
+00:09:40.920 --> 00:10:05.080
+Niketan Doddamani: a tiny dialog box, saying about this Mac system settings app store as well as shared items. So click on the about this, Mac, and once you click on about this, Mac, on the 1st option is, your processor gives you the details of your processor. And once you have that details, please select among this button like, which is your Mac version.
+
+39
+00:10:05.080 --> 00:10:11.520
+Niketan Doddamani: And once you click that you're you're download, you're downloading for anaconda begins.
+
+40
+00:10:13.590 --> 00:10:25.220
+Niketan Doddamani: and once your download, once your download has been completed on the top right, you'll see you'll see a a completed dialog box, and once you click on that
+
+41
+00:10:25.786 --> 00:10:51.060
+Niketan Doddamani: there will be a new dialog box opening in your desktop, that is, the introduction part, followed by continue and go back option. So please click on, continue. And once you click on, continue, you'll have 2 options, that is again install users for all users of this computer or install on a specific disk. Please click on install for all users on this computer and then click on, continue.
+
+42
+00:10:51.270 --> 00:11:03.149
+Niketan Doddamani: And once you once the installation has been completed. You can now see the you can now see the anaconda navigator shortcut on the Mac desktop.
+
+43
+00:11:03.260 --> 00:11:18.370
+Niketan Doddamani: and once you click on that you'll see a Jupyter lab. Jupyter lab in Anacon navigator shortcut. And please click on the launch button so that you will be redirected to the homepage of the Jupyter notebook.
+
+44
+00:11:18.740 --> 00:11:24.610
+Niketan Doddamani: Now, we have. Completed the installation process.
+
+45
+00:11:25.382 --> 00:11:31.127
+Niketan Doddamani: Yeah, we have completed. We have completed the installation process in
+
+46
+00:11:31.760 --> 00:11:44.339
+Niketan Doddamani: in both of the both of them operating systems that is, windows as well as Mac. Now let's begin the exploration of the Jupyter notebook.
+
+47
+00:11:44.900 --> 00:11:50.880
+Niketan Doddamani: Yeah. So we'll be heading up with a walking with the Jupiter notebook. And yeah.
+
+48
+00:11:51.330 --> 00:11:58.120
+Niketan Doddamani: so in this. So you will see a okay.
+
+49
+00:12:03.220 --> 00:12:08.760
+Niketan Doddamani: yeah. I'll have to reshare. Probably.
+
+50
+00:12:12.220 --> 00:12:13.370
+Niketan Doddamani: Okay.
+
+51
+00:12:47.210 --> 00:13:11.669
+Niketan Doddamani: yeah. So once you once, you sorry for the sharing. That is a zoom share issue, I guess. Yeah. So once you once you open the Jupyter notebook, you'll now see the Jupyter notebook homepage in this homepage. You will have 2 but 2 buttons in the top right corner that is new as well as upload.
+
+52
+00:13:11.670 --> 00:13:19.020
+Niketan Doddamani: When you click the new you will click the notebook in order to create a new notebook followed by
+
+53
+00:13:19.170 --> 00:13:20.921
+Niketan Doddamani: when you want to.
+
+54
+00:13:24.170 --> 00:13:40.360
+Niketan Doddamani: followed by when you want to. When you want to open, let's say you want to open an existing notebook. What you will do is you will. You will use the upload button and select the notebook in one of the directory and then open it. Okay. Now.
+
+55
+00:13:40.690 --> 00:13:47.299
+Niketan Doddamani: once you. Once you create, once you create a new notebook, you'll you'll be asked to select the kernel.
+
+56
+00:13:47.300 --> 00:14:10.999
+Niketan Doddamani: And what is kernel is kernel is the heart of programming execution like it decides how the how the execution pattern needs to be done like you will supply the high level language to the compiler. It get. It converts that to the low, level language, and supplies to the compiler, and then it it also. It also handles the execution tasks
+
+57
+00:14:11.000 --> 00:14:26.649
+Niketan Doddamani: of the compiler, so you'll see you'll you'll select the python. 3 kernel over here, and once you select the python 3 kernel, you'll be. You'll land into a jupyter work work environment area. Okay? Now.
+
+58
+00:14:35.750 --> 00:14:38.279
+Niketan Doddamani: yeah. Now, let's
+
+59
+00:14:38.400 --> 00:15:01.159
+Niketan Doddamani: move on to the another part. Okay, now, let's okay, what we can do is. I'll just ex. I'll just give the detail details of 4, 5 tasks in this, and then we we can go, for we can go for execution of one on one of I mean one on one on the jupyter notebook. Okay, so
+
+60
+00:15:02.180 --> 00:15:13.740
+Niketan Doddamani: yeah. So first, st how how we can change the how you can change our untitled to any of any of the name notebook. So what we can do here is we can.
+
+61
+00:15:15.051 --> 00:15:40.570
+Niketan Doddamani: we can. We can. We can. We can rename our notebook. That is double click on the untitled part, and when you double click on that you'll have. You'll have an option to change your to change your notebook to any of your I mean, I mean any of your naming convention. You can do that, I'll show how we can do later on. And also we, we have another option that is file as well as rename.
+
+62
+00:15:42.890 --> 00:15:48.371
+Niketan Doddamani: Now, another concept is Markdown or a code cell.
+
+63
+00:15:49.800 --> 00:15:50.770
+Niketan Doddamani: okay.
+
+64
+00:15:52.000 --> 00:16:14.510
+Niketan Doddamani: Markdown cells are used to write the formatted text. They support markdown syntax, such as headers, lace, bold italics, etc. Making it easier to structure explanations and visual guides. You can also embed images, links, videos, and even latex for mathematical equations.
+
+65
+00:16:14.980 --> 00:16:35.660
+Niketan Doddamani: They help in documenting code, providing context or explanation with the notebook code cells are where you can write the execute actual code, write and execute actual code typically in python, but also in other languages, supported by Jupyter, like R. Julia or Bash.
+
+66
+00:16:35.660 --> 00:16:46.540
+Niketan Doddamani: After running a code cell, the output appears right below it, and you can distinguish them from the markdown cells because they display in the square brackets to the left of the code.
+
+67
+00:16:47.682 --> 00:16:49.308
+Niketan Doddamani: In order to
+
+68
+00:16:50.800 --> 00:17:14.269
+Niketan Doddamani: Okay. Now, let's let's see how we can switch between Markdown cell and a code cell. So in order to switch between Markdown cell and a code cell, there is a drop down in the taskbar above. We can select the we can select the options from them. That is the code option or the markdown cell option, so that the cell acts as a
+
+69
+00:17:14.270 --> 00:17:23.589
+Niketan Doddamani: in order to sell in order to make the cell act as a markdown cell or a code cell. So we'll see this 3 in the in the Jupiter part. Now.
+
+70
+00:17:29.230 --> 00:17:29.990
+Niketan Doddamani: Yeah.
+
+71
+00:17:32.470 --> 00:17:34.140
+Niketan Doddamani: So, as I said
+
+72
+00:17:38.910 --> 00:17:53.699
+Niketan Doddamani: so as I said, the 1st one is renaming your notebook that is double click on here. This is basic underscore one underscore Jupiter underscore notebook dot IP ynb, now, I'll name it as
+
+73
+00:17:55.045 --> 00:17:56.270
+Niketan Doddamani: python
+
+74
+00:17:57.760 --> 00:17:59.020
+Niketan Doddamani: module, one
+
+75
+00:18:04.520 --> 00:18:07.290
+Niketan Doddamani: python python.
+
+76
+00:18:07.920 --> 00:18:09.810
+Niketan Doddamani: one workshop
+
+77
+00:18:12.270 --> 00:18:14.890
+Niketan Doddamani: or python module, one workshop
+
+78
+00:18:19.170 --> 00:18:20.260
+Niketan Doddamani: workshop.
+
+79
+00:18:21.830 --> 00:18:47.510
+Niketan Doddamani: Yeah, you can now see the name has been changed. That is python module, one workshop. And I was telling you about the selection of the cell like this, this part is known as a cell. And you can you have certain options that is, copy the cell and insert the cell below. Insert the cell above.
+
+80
+00:18:47.838 --> 00:19:11.169
+Niketan Doddamani: Sorry. This is for moving cell above, moving cell below, and this is for insert cell above, insert cell below, and the last option is delete option. So I can just demonstrate you that the 1st one is inserting cell above, and the second one is inserting cell below, and the 3rd one is deleting this cell, and the 4th one is moving the cell above and moving the cell below.
+
+81
+00:19:11.170 --> 00:19:35.719
+Niketan Doddamani: Okay. And now you can see there is an option where you can, as I said, in order to make us, in order to make cell perform as a markdown cell or a code cell, we need to select between the between them, in the drop, down by default the cell will be in the code cell, and you can make make I mean, you can recognize that
+
+82
+00:19:35.720 --> 00:19:54.540
+Niketan Doddamani: when you see in the left corner there is a square bracket appearing, that is, that conveys that this cell is the code cell. So I'll just choose it as a markdown cell, and you can see the square brackets disappearing. So this is the Markdown cell which we will be exploring the features of it in the
+
+83
+00:19:54.650 --> 00:19:57.319
+Niketan Doddamani: next. I mean in the next
+
+84
+00:19:57.480 --> 00:19:58.460
+Niketan Doddamani: concepts.
+
+85
+00:20:02.540 --> 00:20:04.600
+Niketan Doddamani: Yeah, so
+
+86
+00:20:06.410 --> 00:20:07.820
+Niketan Doddamani: yeah, so
+
+87
+00:20:09.610 --> 00:20:17.560
+Niketan Doddamani: yeah, so let's let's see what markdowns and on Markdown for headings is.
+
+88
+00:20:17.590 --> 00:20:44.810
+Niketan Doddamani: Markdown allows you to create headings using the hash symbol. Each additional hash reduces the heading size. One hash creates the largest heading, 2 hash creates a smaller heading, and so on. This continues up to 6 level of headings with with 6 hash being the smallest heading size. So I'll just show you how how we can do that.
+
+89
+00:20:45.620 --> 00:20:46.640
+Niketan Doddamani: So
+
+90
+00:20:47.470 --> 00:20:49.040
+Niketan Doddamani: so in here.
+
+91
+00:20:50.160 --> 00:21:14.699
+Niketan Doddamani: Yeah, in here. The the I've already. I've already prepared the notebook assets. So what I'm doing is I'm I'm I'm using 1st hash key and typing the markdown cell. And I'm using 2 hash keys, typing the markdown cell. I'm using 3 typing the markdown cell and seeing the variation in the sizes. Basically. So what we'll do is
+
+92
+00:21:14.700 --> 00:21:39.130
+Niketan Doddamani: we'll select this. We'll select the cell and we can select we will be making sure that the cell type is of Markdown. Okay? And in that first, st what we'll do is we'll we'll have the hash key as well as Markdown cell, and then we'll have 2 hash keys and the markdown cell. We'll have 3 hash keys on the Markdown cell. We'll have 4. We'll have 5. We'll have 6 like that.
+
+93
+00:21:39.130 --> 00:22:02.560
+Niketan Doddamani: And once after the 6 hash keys and the markdown cell, what we can do is hit the run button. Where is the run button is the basically, it's the 6th button in this in the above, in the above, where you choose the markdown as well as sell option. So once you do that you can see. The 1st Markdown cell appears to be a slightly bigger than the second one.
+
+94
+00:22:02.560 --> 00:22:12.750
+Niketan Doddamani: and which is bigger than the 3rd one, which is bigger than the 4, th which is bigger than 5, and which is further bigger than 6. Okay, now let's see the further concepts ahead.
+
+95
+00:22:19.550 --> 00:22:20.490
+Niketan Doddamani: And
+
+96
+00:22:20.640 --> 00:22:49.229
+Niketan Doddamani: now let's see italics in Markdown and bold in Markdown, as we have earlier earlier discussed, what Markdown does is Markdown markdown cells support like such as headers, lists, bold italics, so we'll see how we can do italics in Markdown and bold in Markdown, to italicize a word, wrap it in a single asterisk, or underscore
+
+97
+00:22:49.430 --> 00:22:56.600
+Niketan Doddamani: and to bolder word, wrap it with 2 assets or 2 underscores. Now we'll see how we can do that
+
+98
+00:22:57.430 --> 00:22:59.289
+Niketan Doddamani: and observe the changes.
+
+99
+00:23:00.220 --> 00:23:03.160
+Niketan Doddamani: Okay, so yeah.
+
+100
+00:23:03.490 --> 00:23:14.139
+Niketan Doddamani: So what what you can do is select I mean, insert a new cell and how you can insert a new cell click on your previous cell and then user
+
+101
+00:23:14.140 --> 00:23:37.869
+Niketan Doddamani: last but one option that is inserting the cell below, and then choose the cell as a markdown cell, and once you choose the cell as a markdown cell. Go go in the cell, and then use one asterisk character, followed by type, the word as a markdown cell, and close that with an asterisk character, and in the next in the next
+
+102
+00:23:38.268 --> 00:24:00.620
+Niketan Doddamani: in the next line, what you can do is use 2 underscores, and then, followed by Markdown cell, and then close that with a 2 underscore. And then, after that, what you do is you hit a run button, and you can say the 1st line appears to be Italy in italics, and the second line appears to be in bold. So this is how we can
+
+103
+00:24:02.130 --> 00:24:07.680
+Niketan Doddamani: see a markdown supporting the features of italics as well as bold.
+
+104
+00:24:08.900 --> 00:24:12.199
+Niketan Doddamani: Now let's see the further further features
+
+105
+00:24:19.190 --> 00:24:33.320
+Niketan Doddamani: now combining italics and board. You can combine both styles by mixing asterisks and underscore for different effects. You can also mix the use of underscores and asterisk. So basically
+
+106
+00:24:33.480 --> 00:24:45.469
+Niketan Doddamani: to emphasize text with bold and italics. At the same time. What I can do is, I'll add 3 asterisks or underscore before and after the word to bold and italicize
+
+107
+00:24:45.750 --> 00:24:50.489
+Niketan Doddamani: the middle of a word for emphasis. Add 3 asterisks without space
+
+108
+00:24:50.580 --> 00:24:52.000
+Niketan Doddamani: around the letters.
+
+109
+00:24:52.260 --> 00:24:53.000
+Niketan Doddamani: Yeah. But
+
+110
+00:25:00.630 --> 00:25:09.719
+Niketan Doddamani: so, yeah, so what you can do is again, insert a new cell below. And in this new cell below
+
+111
+00:25:10.590 --> 00:25:12.959
+Niketan Doddamani: in this new cell below, or
+
+112
+00:25:13.410 --> 00:25:28.749
+Niketan Doddamani: you can just type any sentence of your choice. And let's say you want to make a you want to make a bold you want to make somewhere. It has italic and bold. So you have certain number options. The 1st option is,
+
+113
+00:25:29.490 --> 00:25:29.830
+Niketan Doddamani: yeah.
+
+114
+00:25:31.000 --> 00:25:56.699
+Niketan Doddamani: Insert 3 asterisks, and followed by the word where you want to make it as a board, and close it by 3 asterisks, and the second is like in 3 underscores, followed by the word you want to make as bold and italics, and followed by close closing with 3 underscores, and the 3rd is like 2 underscores and asterisk, followed by the word to make bold and italic, and then asterisk, and then followed by 2 underscores.
+
+115
+00:25:57.130 --> 00:26:24.749
+Niketan Doddamani: and the last option is 2 asterisks as well as an underscore, and then a world to make both bold and italic, and then followed by underscore, and then double asterisk. So once you once you do this click on the run button, and you can see there are. There are many ways to make a world as bold and italic with a with a combinations of underscore as well as asterisk.
+
+116
+00:26:24.930 --> 00:26:27.750
+Niketan Doddamani: Now let's see the next feature.
+
+117
+00:26:32.690 --> 00:26:43.980
+Niketan Doddamani: In the next feature, we'll study about how to make a bulleted list by adding, plus minus ahead. Okay, so we'll see how it can be done.
+
+118
+00:26:48.175 --> 00:26:52.270
+Niketan Doddamani: So making a bulleted list so
+
+119
+00:26:52.685 --> 00:27:15.329
+Niketan Doddamani: please use asterisk followed by item. Now, item, say, let's say 1. 0, before that again, if you want to insert a new cell below? Please do click on the last but one option, and then asterisk, followed by item, one asterisk, followed by item 2. Also you can use hyphen, followed by item 3 and hyphen, followed by item 4.
+
+120
+00:27:15.770 --> 00:27:21.379
+Niketan Doddamani: And once you do that run the run the cell, using the run command.
+
+121
+00:27:22.340 --> 00:27:39.039
+Niketan Doddamani: and you can see there are 2 there are 2 bold above and 2 bold below again. Bold making a making a bulleted list by the combination of hyphen as well as asterisk. Okay, now let's see the further concepts.
+
+122
+00:27:43.340 --> 00:28:09.729
+Niketan Doddamani: Hyperlink basic to create a hyperlink in Markdown. You use the following structure, that is, begin with the opening of square bracket and link link text to make it as a hyperlink, and close that with square bracket, and then open the common bracket, and then, in the common bracket, provide the link, whichever you want to, whichever you want to reach on clicking of the hyper
+
+123
+00:28:09.730 --> 00:28:15.110
+Niketan Doddamani: link and then close the close the common bracket. So how it can be done.
+
+124
+00:28:19.500 --> 00:28:42.750
+Niketan Doddamani: So yeah, creating a hyperlink. What I'll do is I'll create a hyperlink of Google 1st and then Uic second. So I'll just demonstrate the features first, st like, if I click on this, it redirects me to the Google Web page again, if I click on this, it redirects me to the Uic Uic page. Okay, so
+
+125
+00:28:43.760 --> 00:28:49.230
+Niketan Doddamani: this is how we can. I mean, hyperlink functions, basically. So
+
+126
+00:28:49.310 --> 00:29:12.430
+Niketan Doddamani: yeah, so how we can do that insert a new cell below. And after that, make a cell type as mark down in that. Open the square braces, close the square braces, and then add the text which you want to make it as a hyperlink, and then followed by the link where you want to land after clicking on that pay after clicking on that keyword.
+
+127
+00:29:12.930 --> 00:29:35.050
+Niketan Doddamani: Now, next again the same thing. Open the square brasses, close the square brasses, and mention the key. Mention the keyword where you want to click on it, and followed by the link after clicking on it, which lands to the landing page of that further. So once you once you follow the syntax and hit the run cell. You can see
+
+128
+00:29:35.920 --> 00:29:48.889
+Niketan Doddamani: 2 keyboard displayed over there. That is Google and Uic. And once you click that it, I have already shown you like it redirects to the new page. Now we'll discuss further concept
+
+129
+00:29:53.630 --> 00:30:22.020
+Niketan Doddamani: in the next is inserting image in order to insert the image. We'll follow the same syntax that is which closely resembles of that of hyperlink. With an added exclamation mark at the beginning the text between the square bracket serve as the alternative text which describes the image which describes the image. The URL between the parenthesis points to the source of the image.
+
+130
+00:30:22.020 --> 00:30:24.619
+Niketan Doddamani: Okay, now let's see how we can do that.
+
+131
+00:30:29.289 --> 00:30:52.480
+Niketan Doddamani: Again, please do select the please do select the insert cell below option, and once you do that change the cell type to Markdown, and once you do that what you do is begin with an exclamation mark, and then open the square braces, close the square braces, and then followed by typing a keyword
+
+132
+00:30:52.801 --> 00:31:15.298
+Niketan Doddamani: which you want to display off the image. And then, mentioning the image source link. Now how you how we can fetch this image source. Link is go to one of your favorite browser and then, followed by type. Any I'm since I have used the Uic logo. I've typed Uic, and then, followed by, I'll use the images, and then I'll go to the 1st image and then
+
+133
+00:31:19.780 --> 00:31:23.949
+Niketan Doddamani: and then what we can do is open image in a new tab
+
+134
+00:31:26.920 --> 00:31:51.380
+Niketan Doddamani: or open image in a new tab, and then, when once you open the image, you'll see the link above and then copy the link. And you can use the same link like how I have used here. Okay? Or else in other than opening the image in the new tab. What you can also do. Another option is copy, image address, and then use the same thing in the open
+
+135
+00:31:51.380 --> 00:32:04.110
+Niketan Doddamani: in the common brackets like how I use. And then after that run the cell. And when once you run the cell, you will see the Uic logo display. Okay, now let's move on to another concept.
+
+136
+00:32:11.315 --> 00:32:38.870
+Niketan Doddamani: Now, let's discuss on the code cell. Now, okay, code cell is the cell which where we will be using or where we will be compiling our python code. And today, we as we discuss in our learning agenda, we'll be discussing about the print statement, basic syntax. And what are the further variations of the print statements? That could lead
+
+137
+00:32:39.323 --> 00:32:46.580
+Niketan Doddamani: to change in the sentences? Okay, so basically the print statement syntax is any object
+
+138
+00:32:46.980 --> 00:33:11.429
+Niketan Doddamani: print followed by open brace, open bracket, and objects like objects you want to print. And then a comma followed by separator. Separator is the one which is used to separate between 2 words, like 2 objects like how what should be, how should be, they separated. And end is basically, and how your ending should look like like
+
+139
+00:33:11.430 --> 00:33:25.019
+Niketan Doddamani: like when once you complete the sentence, the course the after the sentence, we should have a full stop, or after the sentence, we should have a question mark. Such stuff will be handled by the end thing. Okay, now let's see how we can do that
+
+140
+00:33:28.820 --> 00:33:52.137
+Niketan Doddamani: now. In your now again, click on the insert cell below option in the insert cell below option use use the print key and followed by open open bracket in the open bracket you type in. Hello! And then you type in Hello, and then close with an into inverted commas, and then
+
+141
+00:33:52.520 --> 00:34:16.429
+Niketan Doddamani: followed by a comma, and then use a separator as a space, and then followed by a word. Now you can see Hello! There is a space. And the world now if I use in in instead of in include, I mean, instead of using into inverted commas. If I use only a single comma, then how the print statement looks like the print statement still prints
+
+142
+00:34:16.429 --> 00:34:20.699
+Niketan Doddamani: the objects, and, as I said in the 3, rd what we are doing is
+
+143
+00:34:21.012 --> 00:34:45.410
+Niketan Doddamani: also. You'll run the cell in the same way. How we were running it, that is, hitting the play button and in the in the 3rd statement we are using print, followed by Hello, world! And in the end. What we are doing is we are, we are ending with an asterisk. So how it how it works is print. Hello, world, followed by ending, ending. You can see the asterisk.
+
+144
+00:34:45.409 --> 00:35:07.861
+Niketan Doddamani: Okay. Now, the separator part. There are 2 objects here. The hello is one object. World is one object, and we are including a separator. That is a forward slash. And in this, how it looks as Hello! Forward! Slash word! This is how the 2 objects are separated. Basically. So this is all about today's session. And
+
+145
+00:35:08.230 --> 00:35:11.370
+Niketan Doddamani: we have more information for you.
+
+146
+00:35:12.939 --> 00:35:13.929
+Niketan Doddamani: We have
+
+147
+00:35:14.550 --> 00:35:23.290
+Niketan Doddamani: one quick question for you. That is, which one among the statement is correct. That is the 1st statement or the second statement.
+
+148
+00:35:28.650 --> 00:35:54.919
+Niketan Doddamani: Yeah, you're right. The second statement is correct, because in the 1st statement we have already used one, a single comma, a single apostrophe once. But you are again. You are again using it, I mean outside. So this doesn't work. It should be. The word should be encapsulated with 2 into inverted commas. If we have, if we have one apostrophe somewhere in the middle. Okay.
+
+149
+00:35:54.920 --> 00:36:07.279
+Niketan Doddamani: so yeah, so this is what it is. So yeah, if you print the same, then you'll get an unterminated string literal for the 1st one as an error. And the second one works for us.
+
+150
+00:36:08.100 --> 00:36:31.810
+Niketan Doddamani: Yeah. So if you have any, follow up questions about today's materials, please do send us an email at digital scholarshiphub, at Uiceu and schedule a consultation session with me. I'm Nikitan. I'm a digital scholarship Hub staff and a computer science student. I'll be taking up on the following things like what we discussed today, and we'll also
+
+151
+00:36:31.810 --> 00:36:43.560
+Niketan Doddamani: move on to the further workshops. That is, module 2 as well as Module 3. Now, where you need to check the details of the workshop. So here is the link. So one once you click this link.
+
+152
+00:36:44.280 --> 00:36:48.909
+Niketan Doddamani: you'll be redirected
+
+153
+00:36:49.150 --> 00:36:50.690
+Niketan Doddamani: once again.
+
+154
+00:36:51.830 --> 00:37:15.080
+Niketan Doddamani: Once you click this link, you'll be redirected to a page where we have the upcoming workshop. Details hosted. So please do keep checking on this, and do register for the for the workshops, such as we have introduction to python module to coming up, and we'll be sharing you the descriptions like what we have.
+
+155
+00:37:15.482 --> 00:37:27.960
+Niketan Doddamani: We will be discussing on the pi on the workshops, and you have a button to register, so please do register over the site for the further exciting workshops coming up.
+
+156
+00:37:27.960 --> 00:37:29.810
+Niketan Doddamani: Yes, and
+
+157
+00:37:30.330 --> 00:37:37.820
+Niketan Doddamani: I thank you for joining us today. And to this wonderful workshop. Thank you. Thank you. Everyone have a wonderful day ahead.
+
+158
+00:37:39.950 --> 00:37:40.680
+Niketan Doddamani: Yeah.
+
